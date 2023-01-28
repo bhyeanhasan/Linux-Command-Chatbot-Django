@@ -19,7 +19,11 @@
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
@@ -28,56 +32,226 @@
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
-    {
-      "tag": "items",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
       ]
     },
     {
-      "tag": "payments",
+      "tag": "help",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "help",
+        "help me",
+        "help all"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "creates a new file<br>list the contents<br>working directory<br>change directory<br>Move a level up<br>previous directory<br>new directories<br>Create empty files",
+        "creates a new file<br>list the contents<br>working directory<br>change directory<br>Move a level up<br>previous directory<br>new directories<br>Create empty files"
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "create",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "creates a new file",
+        "new file",
+        "creates file"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "cat > filename.txt",
+        "cat > Example.txt"
       ]
     },
     {
-      "tag": "funny",
+      "tag": "list",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "list the contents of the directory",
+        "list the contents"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        " > ls",
+        " > ls"
+      ]
+    },
+    {
+      "tag": "working",
+      "patterns": [
+        "print working directory",
+        "working directory",
+        "view working directory"
+      ],
+      "responses": [
+        " > pwd",
+        " > pwd"
+      ]
+    },
+    {
+      "tag": "change directory",
+      "patterns": [
+        "change directory",
+        "switches directory"
+      ],
+      "responses": [
+        " > cd Videos",
+        " > cd Folders"
+      ]
+    },
+    {
+      "tag": "Move a level up",
+      "patterns": [
+        "Move a level up",
+        "Go to previous"
+      ],
+      "responses": [
+        " > cd ..",
+        " > cd .."
+      ]
+    },
+    {
+      "tag": "previous directory",
+      "patterns": [
+        "Return to the previous directory",
+        "previous directory"
+      ],
+      "responses": [
+        " > cd -",
+        " > cd -"
+      ]
+    },
+    {
+      "tag": "create directories",
+      "patterns": [
+        "create directories",
+        "new directories"
+      ],
+      "responses": [
+        " > mkdir <folder name> ",
+        " > mkdir <folder name> "
+      ]
+    },
+    {
+      "tag": "new files",
+      "patterns": [
+        "Create empty files",
+        "Create blank files"
+      ],
+      "responses": [
+        " > touch <file name>  ",
+        " > touch <file name>  "
+      ]
+    },
+    {
+      "tag": "Clear",
+      "patterns": [
+        "Clear the terminal display",
+        "Clear the display",
+        "Clear the terminal"
+      ],
+      "responses": [
+        " > clear",
+        " > clear"
+      ]
+    },
+    {
+      "tag": "OS",
+      "patterns": [
+        "basic information about the OS",
+        "about the OS",
+        "basic information"
+      ],
+      "responses": [
+        " > uname ",
+        " > uname "
+      ]
+    },
+    {
+      "tag": "username",
+      "patterns": [
+        "Get the active username",
+        "active user",
+        "Get the username"
+      ],
+      "responses": [
+        " > whoami  ",
+        " > whoami  "
+      ]
+    },
+    {
+      "tag": "extract",
+      "patterns": [
+        "extract and compress files in Linux",
+        "compress files in Linux",
+        "unzip files in Linux"
+      ],
+      "responses": [
+        " > tar   ",
+        " > tar   "
+      ]
+    },
+    {
+      "tag": "zip",
+      "patterns": [
+        "Zip files in Linux",
+        "Zip files",
+        "Zip files in Linux"
+      ],
+      "responses": [
+        " > zip    ",
+        " > zip    "
+      ]
+    },
+    {
+      "tag": "Unzip",
+      "patterns": [
+        "Unzip files in Linux",
+        "Unzip files",
+        "Unzip"
+      ],
+      "responses": [
+        " > unzip    ",
+        " > unzip    "
+      ]
+    },
+    {
+      "tag": "ip",
+      "patterns": [
+        "network interfaces and IP addresses",
+        "IP addresses",
+        "Show network interfaces"
+      ],
+      "responses": [
+        " > ifconfig     ",
+        " > ifconfig     "
+      ]
+    },
+    {
+      "tag": "password",
+      "patterns": [
+        "Create or update passwords for existing users",
+        "Create or update passwords",
+        "Change passwords"
+      ],
+      "responses": [
+        " > passwd",
+        " > passwd"
+      ]
+    },
+    {
+      "tag": "password",
+      "patterns": [
+        "Create or update passwords for existing users",
+        "Create or update passwords",
+        "Change passwords"
+      ],
+      "responses": [
+        " > passwd",
+        " > passwd"
       ]
     }
   ]

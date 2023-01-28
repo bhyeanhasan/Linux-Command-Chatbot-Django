@@ -11,7 +11,7 @@ def index(request):
 
 def send(request):
     message = request.POST['message']
-    response =reply.get_response(message)
+    response = reply.get_response(message)
 
     chat = Chat()
     chat.text = message
@@ -23,4 +23,10 @@ def send(request):
     chat.person = 2
     chat.save()
 
+    return redirect('index')
+
+
+def delete(request):
+    obj = Chat.objects.all()
+    obj.delete()
     return redirect('index')
