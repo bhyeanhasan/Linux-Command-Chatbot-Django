@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0c0ee228-9c71-4164-9668-ef603a34412c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ChatBotForLinuxCommand.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatBotForLinuxCommand/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatBotForLinuxCommand/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatBotForLinuxCommand/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatBotForLinuxCommand/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatBotForLinuxCommand/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainApp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainApp/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainApp/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainApp/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainApp/migrations/0002_chat_person.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainApp/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainApp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainApp/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainApp/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainApp/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuralModel/data.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuralModel/intents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuralModel/model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuralModel/reply.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/intents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/data.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/intents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/pic/bh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/pic/bot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/pic/robot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/inbox.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2bWehdWY1chniHLmJqMZmO2IYQw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/bhyea/Desktop/Linux-Command-Chatbot-Django",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c0ee228-9c71-4164-9668-ef603a34412c" name="Changes" comment="" />
+      <created>1706335383949</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706335383949</updated>
+      <workItem from="1706335386410" duration="16000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
